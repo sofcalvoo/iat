@@ -33,9 +33,9 @@ define(['pipAPI','pipScorer','underscore'], function(APIConstructor, Scorer, _) 
 			},
 			//When scoring, we will consider the compatible condition the pairing condition that requires response with one key to [category1,attribute1] and the other key to [category2,attribute2]
 			category1 : {
-				name : 'MORENA', //Will appear in the data and in the default feedback message.
+				name : 'INDÍGENA', //Will appear in the data and in the default feedback message.
 				title : {
-					media : {word : 'MORENA'}, //Name of the category presented in the task.
+					media : {word : 'INDÍGENA'}, //Name of the category presented in the task.
 					css : {color:'#336600','font-size':'1.8em'}, //Style of the category title.
 					height : 4 //Used to position the "Or" in the combined block.
 				},
@@ -50,9 +50,9 @@ define(['pipAPI','pipScorer','underscore'], function(APIConstructor, Scorer, _) 
 				stimulusCss : {color:'#336600','font-size':'2.3em'}
 			},
 			category2 :	{
-				name : 'PAN', //Will appear in the data and in the default feedback message.
+				name : 'BLANCO', //Will appear in the data and in the default feedback message.
 				title : {
-					media : {word : 'PAN'}, //Name of the category presented in the task.
+					media : {word : 'BLANCO'}, //Name of the category presented in the task.
 					css : {color:'#336600','font-size':'1.8em'}, //Style of the category title.
 					height : 4 //Used to position the "Or" in the combined block.
 				},
@@ -68,40 +68,40 @@ define(['pipAPI','pipScorer','underscore'], function(APIConstructor, Scorer, _) 
 			},
 			attribute1 :
 			{
-				name : 'Malo',
+				name : 'NEGATIVO',
 				title : {
-					media : {word : 'Malo'},
+					media : {word : 'NEGATIVO'},
 					css : {color:'#0000FF','font-size':'1.8em'},
 					height : 4 //Used to position the "Or" in the combined block.
 				},
 				stimulusMedia : [ //Stimuli content as PIP's media objects
-					{word: 'Muerte'},
-					{word: 'Tristeza'},
-					{word: 'Enojo'},
-					{word: 'Malo'},
-					{word: 'Violencia'},
-					{word: 'Desigualdad'},
-					{word: 'Esclavitud'}
+					{word: 'Agonía'},
+					{word: 'Odio'},
+					{word: 'Mal'},
+					{word: 'Miedo'},
+					{word: 'Asco'},
+					{word: 'Desprecio'},
+					{word: 'Enojo'}
 				],
 				//Stimulus css
 				stimulusCss : {color:'#0000FF','font-size':'2.3em'}
 			},
 			attribute2 :
 			{
-				name : 'Bueno',
+				name : 'POSITIVO',
 				title : {
-					media : {word : 'Bueno'},
+					media : {word : 'POSITIVO'},
 					css : {color:'#0000FF','font-size':'1.8em'},
 					height : 4 //Used to position the "Or" in the combined block.
 				},
 				stimulusMedia : [ //Stimuli content as PIP's media objects
-					{word: 'Vida'},
+					{word: 'Bien'},
 					{word: 'Felicidad'},
-					{word: 'Excelente'},
+					{word: 'Alegría'},
 					{word: 'Amistad'},
 					{word: 'Amor'},
-					{word: 'Alegría'},
-					{word: 'Salud'}
+					{word: 'Confianza'},
+					{word: 'Cariño'}
 				],
 				//Stimulus css
 				stimulusCss : {color:'#0000FF','font-size':'2.3em'}
