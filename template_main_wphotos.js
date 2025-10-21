@@ -1,4 +1,4 @@
-//YBYB:Created from iat8.js, for Qualtrics
+
 define(['pipAPI','pipScorer','underscore'], function(APIConstructor, Scorer, _) {
 
 	/**
@@ -470,7 +470,8 @@ define(['pipAPI','pipScorer','underscore'], function(APIConstructor, Scorer, _) 
 		}
 		if(fullscreen){
 			var el = document.documentElement;
-			var rfs = el.requestFullscreen || el.webkitRequestFullScreen || el.mozRequestFullScreen || el.msRequestFullscreen;
+			var rfs = el
+.requestFullscreen || el.webkitRequestFullScreen || el.mozRequestFullScreen || el.msRequestFullscreen;
 			if (rfs) rfs.call(el);
 			else if(window.ActiveXObject){
 		// for Internet Explorer
@@ -1152,7 +1153,7 @@ define(['pipAPI','pipScorer','underscore'], function(APIConstructor, Scorer, _) 
 			}
 		    iBlock++;
 		}
-		isCompatible = (isCompatible==INCOMPATIBLE ? COMPATIBLE : INCOMPATIBLE);
+isCompatible = (isCompatible==INCOMPATIBLE ? COMPATIBLE : INCOMPATIBLE);
 		//////////////////////////////
 		////Switch categories side block.
 		//Do the switch
