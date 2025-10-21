@@ -451,5 +451,8 @@ define(['pipAPI','pipScorer','underscore'], function(APIConstructor, Scorer, _) 
 		return API.script;
 	}
 
+			return API.script;
+	}
+
 	return iatExtension;
-})); // FIXED: Added missing closing parenthesis
+});
