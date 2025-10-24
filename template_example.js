@@ -20,9 +20,9 @@ define(['pipAPI', 'https://sofcalvoo.github.io/iat/template_main.js'], function(
 			stimulusCss : {color:'#31940F','font-size':'1.8em'}
 		},	
 		category2 :	{
-			name : 'Autoritarismo', //Will appear in the data.
+			name : 'BLANCO', //Will appear in the data.
 			title : {
-				media : {word : 'Autoritarismo'}, //Name of the category presented in the task.
+				media : {word : 'BLANCO'}, //Name of the category presented in the task.
 				css : {color:'#31940F','font-size':'2em'}, //Style of the category title.
 				height : 4 //Used to position the "Or" in the combined block.
 			}, 
