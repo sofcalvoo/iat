@@ -20,8 +20,8 @@ define(['pipAPI', 'https://sofcalvoo.github.io/iat/template_main.js'], function(
 			stimulusCss : {
 			    color:'#31940F',
 			    'font-size':'1.8em',
-			    'width': '300px',
-			    'height': '300px',
+			    'width': '100px',
+			    'height': '100px',
 			    'object-fit': 'cover'
 			}
 		},	
@@ -42,8 +42,8 @@ define(['pipAPI', 'https://sofcalvoo.github.io/iat/template_main.js'], function(
 			stimulusCss : {
 			    color:'#336600',
 			    'font-size':'2.3em',
-			    'width': '300px',
-			    'height': '300px',
+			    'width': '100px',
+			    'height': '100px',
 			    'object-fit': 'cover'
 			}
 		},	
