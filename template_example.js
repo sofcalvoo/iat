@@ -17,7 +17,13 @@ define(['pipAPI', 'https://sofcalvoo.github.io/iat/template_main.js'], function(
 			{image : 'ind_5.jpeg'}
 			], 
 			//Stimulus css (style)
-			stimulusCss : {color:'#31940F','font-size':'1.8em'}
+			stimulusCss : {
+			    color:'#31940F',
+			    'font-size':'1.8em',
+			    'width': '300px',
+			    'height': '300px',
+			    'object-fit': 'cover'
+			}
 		},	
 		category2 :	{
 			name : 'BLANCO', //Will appear in the data.
@@ -33,7 +39,13 @@ define(['pipAPI', 'https://sofcalvoo.github.io/iat/template_main.js'], function(
     			{image : 'white_4.jpeg'}, 
     			{image : 'white_5.jpeg'}				], 
 			//Stimulus css
-			stimulusCss : {color:'#31940F','font-size':'1.8em'}
+			stimulusCss : {
+			    color:'#336600',
+			    'font-size':'2.3em',
+			    'width': '300px',
+			    'height': '300px',
+			    'object-fit': 'cover'
+			}
 		},	
 
 		base_url : {//Where are your images at?
